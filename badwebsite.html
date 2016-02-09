@@ -1,0 +1,566 @@
+<!DOCTYPE HTML>
+<html>
+<body bgcolor="#ffffff" text="#000000" link="#0000ff" alink="#800080" vlink="#ff0000"><!--'"</title></head>-->
+
+<script async="" type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js"></script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript">
+//OwnerIQ
+var __oiq_pct = 50;
+if( __oiq_pct>=100 || Math.floor(Math.random()*100/(100-__oiq_pct)) > 0 ) {
+var _oiqq = _oiqq || [];
+_oiqq.push(['oiq_addPageBrand','Lycos']);
+_oiqq.push(['oiq_addPageCat','Internet > Websites']);
+_oiqq.push(['oiq_addPageLifecycle','Intend']);
+_oiqq.push(['oiq_doTag']);
+(function() {
+var oiq = document.createElement('script'); oiq.type = 'text/javascript'; oiq.async = true;
+oiq.src = document.location.protocol + '//px.owneriq.net/stas/s/lycosn.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(oiq, s);
+})();
+}
+
+/////// Google Analytics
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-21402695-21']);
+_gaq.push(['_setDomainName', 'angelfire.com']);
+_gaq.push(['_setCustomVar', 1, 'member_name', 'space/annoying', 3]);
+_gaq.push(['_trackPageview']);
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+////// Lycos Initialization /////////////////////
+var lycos_ad = Array();
+var lycos_search_query = "";
+var lycos_onload_timer;
+
+var cm_role = "live";
+var cm_host = "angelfire.lycos.com";
+var cm_taxid = "/memberembedded";
+var angelfire_member_name = "space/annoying";
+var angelfire_member_page = "space/annoying/index.html";
+var angelfire_ratings_hash = "1455042308:926a6806c160b9d3c1b7852233ec52e9";
+
+var lycos_ad_category = {"dmoz":"health\/addictions","ontarget":"&CAT=health&L2CAT=diseases%20and%20conditions&L3CAT=substance%20abuse","find_what":"push button switch"};
+
+var lycos_ad_remote_addr = "130.132.173.185";
+var lycos_ad_www_server = "www.angelfire.lycos.com";
+var edit_site_url = "www.angelfire.lycos.com/landing/landing.tmpl?utm_source=house&utm_medium=landingpage&utm_campaign=toolbarlink";
+
+</script>
+<script type="text/javascript" src="http://scripts.lycos.com/catman/init.js"></script>
+
+<script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+  var gads = document.createElement('script');
+  gads.async = true;
+  gads.type = 'text/javascript';
+  var useSSL = 'https:' == document.location.protocol;
+  gads.src = (useSSL ? 'https:' : 'http:') +
+    '//www.googletagservices.com/tag/js/gpt.js';
+  var node = document.getElementsByTagName('script')[0];
+  node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+
+<script type="text/javascript">
+googletag.cmd.push(function() {
+  googletag.defineSlot('/95963596/ANG_300x250_dfp', [300, 250], 'div-gpt-ad-1450207484070-0').addService(googletag.pubads());
+  googletag.enableServices();
+});
+</script>
+
+<script type="text/javascript">
+googletag.cmd.push(function() {
+  googletag.defineSlot('/95963596/ANG_above_728x90_dfp', [728, 90], 'div-gpt-ad-1450207484070-1').addService(googletag.pubads());
+  googletag.enableServices();
+});
+</script>
+
+<script type="text/javascript">
+googletag.cmd.push(function() {
+  googletag.defineSlot('/95963596/ANG_below_728X90_dfp', [728, 90], 'div-gpt-ad-1450207484070-2').addService(googletag.pubads());
+  googletag.enableServices();
+});
+</script>
+
+
+<script type="text/javascript">
+(function(isV) {
+   if (!isV) {
+       return;
+   }
+
+   //this.lycos_search_query = lycos_get_search_referrer();
+   var adMgr = new AdManager();
+   var lycos_prod_set = adMgr.chooseProductSet();
+   var slots = ["leaderboard", "leaderboard2", "toolbar_image", "toolbar_text", "smallbox", "top_promo", "footer2","slider"];
+   var adCat = this.lycos_ad_category;
+   adMgr.setForcedParam('page', (adCat && adCat.dmoz) ? adCat.dmoz : 'member');
+
+   if (this.lycos_search_query) {
+       adMgr.setForcedParam("keyword", this.lycos_search_query);
+   }
+   else if (adCat && adCat.find_what) {
+       adMgr.setForcedParam('keyword', adCat.find_what);
+   }
+
+   for (var s in slots) {
+       var slot = slots[s];
+       if (adMgr.isSlotAvailable(slot)) {
+           this.lycos_ad[slot] = adMgr.getSlot(slot);
+       }
+   }
+
+
+   adMgr.renderHeader();
+   adMgr.renderFooter();
+}((function() {
+   var w = 0, h = 0, minimumThreshold = 300;
+   if (top == self) {
+       return true;
+   }
+
+   if (typeof(window.innerWidth) == 'number' ) {
+       w = window.innerWidth;
+       h = window.innerHeight;
+   }
+   else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+       w = document.documentElement.clientWidth;
+       h = document.documentElement.clientHeight;
+   }
+   else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+       w = document.body.clientWidth;
+       h = document.body.clientHeight;
+   }
+
+   return ((w > minimumThreshold) && (h > minimumThreshold));
+}())));
+
+
+
+window.onload = function() {
+   var f = document.getElementById("lycosFooterAd");
+   var b = document.getElementsByTagName("body")[0];
+   b.appendChild(f);
+   f.style.display = "block";
+   document.getElementById('lycosFooterAdiFrame').src = '/adm/ad/footerAd.iframe.html';
+
+   // Slider Injection
+   (function() {
+       var e = document.createElement('iframe');
+       e.style.border = '0';
+       e.style.margin = 0;
+       e.style.display = 'block';
+       e.style.cssFloat = 'right';
+       e.style.height = '254px';
+       e.style.overflow = 'hidden';
+       e.style.padding = 0;
+       e.style.width = '300px';
+   })();
+
+
+   // Bottom Ad Injection
+   ( function() {
+       var b = document.getElementsByTagName("body")[0];
+
+       var iif = document.createElement('iframe');
+       iif.style.border = '0';
+       iif.style.margin = 0;
+       iif.style.display = 'block';
+       iif.style.cssFloat = 'right';
+       iif.style.height = '254px';
+       iif.style.overflow = 'hidden';
+       iif.style.padding = 0;
+       iif.style.width = '300px';
+       iif.src = '/adm/ad/injectAd.iframe.html';
+
+       var cdiv = document.createElement('div');
+       cdiv.style = "width:300px;margin:10px auto;";
+       cdiv.appendChild( iif );
+       if( b )
+       {
+           b.insertBefore(cdiv, b.lastChild);
+       }
+   })();
+
+}
+
+
+</script>
+
+<style>
+ #body .adCenterClass{margin:0 auto}
+</style>
+
+<div style="background:#abe6f6; border-bottom:1px solid #507a87; position:relative; z-index:9999999">
+   <!-- Search Box -->
+<!--<form name="search" onSubmit="return searchit()" id='header_search' >
+           <input type="text" placeholder="Search" size=30 name="search2" value="">
+           <input type="button" value="Go!" onClick="searchit()">
+           </form>
+           <style>
+           form#header_search {
+               width: 916px;
+               margin: 0 auto 8px;
+               position: relative;
+           }
+
+
+           form#header_search input {
+               height: 40px;
+               font-size: 14px;
+               line-height: 40px;
+               padding: 0 8px;
+               box-sizing: border-box;
+               background: #F4F2E9;
+               border: 1px solid #BBB8B8;
+               transition: background-color 300ms ease-out,
+                           color 300ms ease;
+           }
+
+           form#header_search input[type="text"] {
+               width: 100%;
+           }
+           form#header_search input[type="text"]:focus {
+               border-color: #A2D054;
+               background-color: #fff;
+               box-shadow: 0 0px 12px -4px #A2D054;
+           }
+
+
+
+           form#header_search input[type="button"] {
+               position: absolute;
+               top: 1px;
+               right: 1px;
+               opacity: 1;
+               background: #DFDCCF;
+               color: #463734;
+               width: 125px;
+               cursor: pointer;
+               height: 38px;
+               border: none;
+           }
+           form#header_search input[type="text"]:focus ~ input[type='button']:hover,
+           form#header_search input[type='button']:hover {
+               background-color: #A5CE56;
+               color: #fff;
+           }
+           form#header_search input[type="text"]:focus ~ input[type='button'] {
+               background-color: #52AEDF;
+               color: #fff;
+           }
+
+           </style>
+
+           <script>
+           function searchit(){
+
+               // determine environment
+               var search_env
+               if (lycos_ad_www_server.indexOf(".pd.") > -1) {
+                  search_env = 'http://search52.pd.lycos.com/a/';
+               } else if (lycos_ad_www_server.indexOf(".qa.") > -1) {
+                  search_env = 'http://search52.qa.lycos.com/a/';
+               } else {
+                  search_env = 'http://search52.lycos.com/a/';
+               }
+
+           var search_term = encodeURIComponent(document.search.search2.value)
+           var search_url = search_env+search_term;
+           window.open(search_url);
+
+           return false
+           }
+           </script-->
+       <!--end search box -->
+
+
+   <div class="adCenterClass" style="display:block!important; overflow:hidden; width:916px;">
+       <a href="http://www.angelfire.lycos.com/" title="THIS IS BEST WEBSITE ON DA INTERNET Y0U'R'3 W3BS1T3 ISNT 3V3N @S GUD @$ M1N3 HAHAHAHAAHAHAHAAHAHAHAAHAHAHAHAAHAHAHAAHAHAHAHAAHHAHAHAHAHAHAAHAAHAHAHAHAHAHAHHA" style="display:block; float:left; width:186px; border:0">
+       <img src="/adm/ad/angelfire-freeAd.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display: none !important; border: 0px; visibility: hidden !important; opacity: 0 !important; background-position: 0px 0px;" width="0" height="0">
+       </a>
+       <div id="ad_container" style="display:block!important; float:left; width:728px ">
+           <script type="text/javascript">document.write(lycos_ad['leaderboard']);</script>undefined
+       </div>
+   </div>
+</div>
+
+<!-- ///////////////////////////////////// -->
+<script type="text/javascript">document.write(lycos_ad['slider']);</script>undefined
+
+
+<div id="lycosFooterAd" style="background:#abe6f6; border-top:1px solid #507a87; clear:both; display:none; position:relative; z-index:9999999">
+<div class="adCenterClass" style="display:block!important; overflow:hidden; width:936px;">
+ <div id="aflinksholder" style="float:left; width:186px;">
+       <a href="http://www.angelfire.lycos.com/" title="Y0U'R'3 W3BS1T3 ISNT 3V3N @S GUD @$ M1N3" style="display:block; border:0">
+           <img src="/adm/ad/angelfire-freeAd2.jpg" alt="Site hosted by Angelfire.com: Build your free website today!" style="display: none !important; border: 0px; visibility: hidden !important; opacity: 0 !important; background-position: 0px 0px;" width="0" height="0">
+       </a>
+   </div>
+   <iframe id="lycosFooterAdiFrame" style="border:0; display:block; float:left; height:96px; overflow:hidden; padding:0; width:750px"></iframe>
+</div>
+</div>
+
+
+
+
+<basefont size="3">
+
+<div align="center">
+
+<!--Header-->
+<h1 align="center">Y0U'R'3 W3BS1T3 ISNT 3V3N @S GUD @$ M1N3</h1>
+<!--EndHeader-->
+
+<!--List-->
+<font size="5">HAHAHAHAHAHAHHA U W!$H Y0U'R'3 W3BS1T3 WUZ @S GUD @$ M1N3</font>
+<ul>
+<li>
+</li><li>Created by CoolMike
+</li></ul>
+<p>
+<!--EndList-->
+
+<!--Freetext--><script language="JavaScript">alert("Hey!!"); </script>
+<script language="JavaScript">alert("You clicked on the button!!!"); window.location = 'https://nameless-ravine-83156.herokuapp.com/'; </script>
+<script language="JavaScript">alert("Now you are going to regret it!!!"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("I will annoy you now."); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("I know...") </script><iframe src="http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html" width="0" height="0" style="visibility: hidden !important; display: none !important; opacity: 0 !important;"></iframe>
+<script language="JavaScript">alert("Lets do some SNL Celebrity Jeopardy!!") </script>
+<script language="JavaScript">alert("TREBEK: Welcome back to Celebrity Jeopardy"); window.location = 'https://nameless-ravine-83156.herokuapp.com/'; </script>
+<script language="JavaScript">alert("TREBEK: I apollogise for what happened b4 the commercial"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("TREBEK: And I would like to assure the audience"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("TREBEK: that all 3 contestants are now wearing pants"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("TREBEK: That said, lets take a look @ the scores"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("TREBEK: Ozzy Osbourne has negitive 79,000 dollars"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("OZZY: All Aboard!!!"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("OZZY: AH E AH E AH E AH E AH E"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("TREBEK: *sarcastic* Fantastic"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("TREBEK: Martha Stewart has a commanding lead with 0"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("MARTHA:Alex,  I have transformed this simple game show podium"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("MARTHA: Into rich a cornicopia of winter flora"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("MARTHA: Using dried figs and snow-tipped eucaliptus"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("MARTHA: I really treasure it"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("TREBEK: *sarcastic* Wow"); window.location = 'https://nameless-ravine-83156.herokuapp.com/';  </script>
+<script language="JavaScript">alert("TREBEK: And in third place") </script>
+<script language="JavaScript">alert("TREBEK: Ugh....Sean Connery ") </script>
+<script language="JavaScript">alert("SEAN: We meet again Trebek") </script>
+<script language="JavaScript">alert("SEAN: I noticed you weren't able to sit down during the break") </script>
+<script language="JavaScript">alert("SEAN: What's wrong sweetie, did you have a date last night?") </script>
+<script language="JavaScript">alert("TREBEK: *sarcastic* Thank you Mr. Connery") </script>
+<script language="JavaScript">alert("TREBEK: Now let's take a look at the catgories for Double Jeopardy") </script>
+<script language="JavaScript">alert("TREBEK: They are - Potent Potables ") </script>
+<script language="JavaScript">alert("TREBEK: Drummers Named Ringo") </script>
+<script language="JavaScript">alert("TREBEK: States That Begin With Californ") </script>
+<script language="JavaScript">alert("TREBEK: Richard Nixon") </script>
+<script language="JavaScript">alert("TREBEK: The Number After Two") </script>
+<script language="JavaScript">alert("TREBEK: Famous Kareem Abdul Jabars") </script>
+<script language="JavaScript">alert("TREBEK: And finally, Don't Do Anything") </script>
+<script language="JavaScript">alert("*DING*") </script>
+<script language="JavaScript">alert("TREBEK: *sarcastic* What is it Mr. Connery?") </script>
+<script language="JavaScript">alert("SEAN: Knock Knock") </script>
+<script language="JavaScript">alert("TREBEK: Who's there? ") </script>
+<script language="JavaScript">alert("SEAN: Me, the guy who slept with your mother last night") </script>
+<script language="JavaScript">alert("Ok, that's enough of that") </script>
+<script language="JavaScript">alert("Let's move on to a song") </script>
+<script language="JavaScript">alert("How about Sweet Home Alabama?") </script>
+<script language="JavaScript">alert("Big wheels keep on turning") </script>
+<script language="JavaScript">alert("Carry me home to see my kin") </script>
+<script language="JavaScript">alert("Singing songs about the Southland") </script>
+<script language="JavaScript">alert("I miss Alabamy once again") </script>
+<script language="JavaScript">alert("And I think its a sin, yes") </script>
+<script language="JavaScript">alert("Well I heard mister Young sing about her") </script>
+<script language="JavaScript">alert("Well, I heard ole Neil put her down") </script>
+<script language="JavaScript">alert("Well, I hope Neil Young will remember") </script>
+<script language="JavaScript">alert("A Southern man don't need him around anyhow") </script>
+<script language="JavaScript">alert("Sweet home Alabama") </script>
+<script language="JavaScript">alert("Where the skies are so blue") </script>
+<script language="JavaScript">alert("Sweet Home Alabama") </script>
+<script language="JavaScript">alert("Lord, I'm coming home to you") </script>
+<script language="JavaScript">alert("In Birmingham they love the gov' nor") </script>
+<script language="JavaScript">alert("Now we all did what we could do") </script>
+<script language="JavaScript">alert("Now Watergate does not bother me") </script>
+<script language="JavaScript">alert("Does your conscience bother you?") </script>
+<script language="JavaScript">alert("Tell the truth") </script>
+<script language="JavaScript">alert("Sweet home Alabama") </script>
+<script language="JavaScript">alert("Where the skies are so blue") </script>
+<script language="JavaScript">alert("Sweet home Alabama") </script>
+<script language="JavaScript">alert("Lord, I'm coming home to you") </script>
+<script language="JavaScript">alert("Here I come Alabama") </script>
+<script language="JavaScript">alert("Now Muscle Shoals has got the Swampers") </script>
+<script language="JavaScript">alert("And they've been known to pick a song or two") </script>
+<script language="JavaScript">alert("Lord they get me off so much ") </script>
+<script language="JavaScript">alert("They pick me up when I'm feeling blue") </script>
+<script language="JavaScript">alert("Now how about you?") </script>
+<script language="JavaScript">alert("Sweet home Alabama") </script>
+<script language="JavaScript">alert("Where the skies are so blue") </script>
+<script language="JavaScript">alert("Sweet home Alabama") </script>
+<script language="JavaScript">alert("Lord, I'm coming home to you") </script><script language="JavaScript">alert("Sweet home Alabama") </script>
+<script language="JavaScript">alert("Oh sweet home baby") </script>
+<script language="JavaScript">alert("Where the skies are so blue") </script>
+<script language="JavaScript">alert("And the guv'nor's true") </script>
+<script language="JavaScript">alert("Sweet Home Alabama") </script>
+<script language="JavaScript">alert("Lordy") </script>
+
+<script language="JavaScript">alert("Lord, I'm coming home to you") </script>
+<script language="JavaScript">alert("Yea, yea") </script>
+<script language="JavaScript">alert("Montgomery's got the answer") </script>
+<script language="JavaScript">alert("That was fun") </script>
+<script language="JavaScript">alert("Now, let's name every company on the Dow Jones Industrial Average") </script>
+<script language="JavaScript">alert("3M") </script>
+
+<script language="JavaScript">alert("Alcoa") </script>
+
+<script language="JavaScript">alert("American Express") </script>
+
+<script language="JavaScript">alert("AT&T") </script>
+<script language="JavaScript">alert("Boeing") </script>
+<script language="JavaScript">alert("Caterpillar") </script>
+<script language="JavaScript">alert("Citigroup") </script>
+<script language="JavaScript">alert("Coca Cola") </script>
+<script language="JavaScript">alert("DuPont") </script>
+
+<script language="JavaScript">alert("Eastman Kodak") </script>
+
+<script language="JavaScript">alert("Exxon Mobil")</script>
+<script language="JavaScript">alert("General Electric Company") </script>
+<script language="JavaScript">alert("General Motors") </script>
+<script language="JavaScript">alert("Home Depot") </script>
+<script language="JavaScript">alert("Honeywell International") </script>
+<script language="JavaScript">alert("Hewlett-Packard") </script>
+<script language="JavaScript">alert("IBM") </script>
+<script language="JavaScript">alert("Intel") </script>
+<script language="JavaScript">alert("International Paper Company") </script>
+<script language="JavaScript">alert("Johnson & Johnson") </script>
+<script language="JavaScript">alert("JP Morgan") </script>
+<script language="JavaScript">alert("McDonalds") </script>
+<script language="JavaScript">alert("Merck & Co") </script>
+<script language="JavaScript">alert("Microsoft") </script>
+<script language="JavaScript">alert("Philip Morris") </script>
+<script language="JavaScript">alert("Proctor & Gamble") </script>
+<script language="JavaScript">alert("SBC Communications") </script>
+<script language="JavaScript">alert("United Technologies") </script>
+<script language="JavaScript">alert("Walmart") </script>
+<script language="JavaScript">alert("Walt Disney") </script>
+<script language="JavaScript">alert("OK, That's all 30 of em") </script>
+<script language="JavaScript">alert("Now it's time to name state capitals of the USA!") </script>
+<script language="JavaScript">alert("North Carolina - Raleigh") </script>
+<script language="JavaScript">alert("New York - Albany") </script>
+<script language="JavaScript">alert("Washington - Olympia") </script>
+<script language="JavaScript">alert("Kansas - Topeka") </script>
+<script language="JavaScript">alert("Maine - Augusta") </script>
+<script language="JavaScript">alert("Vermont - Montpeiler") </script>
+<script language="JavaScript">alert("Nevada - Carson City") </script>
+<script language="JavaScript">alert("Lousiana- Baton Rouge") </script>
+<script language="JavaScript">alert("Alabama - Montgomery") </script>
+<script language="JavaScript">alert("Alaska - Juneau") </script>
+<script language="JavaScript">alert("Florida - Tallahasse") </script>
+<script language="JavaScript">alert("South Dakota - Pierre") </script>
+<script language="JavaScript">alert("Missouri - Jefferson City") </script>
+<script language="JavaScript">alert("Kentucky - Frankfurt") </script>
+<script language="JavaScript">alert("Wisconsin - Madison") </script>
+<script language="JavaScript">alert("I think I've annoyed you enough now") </script>
+<script language="JavaScript">alert("Now let this be a lesson to ya") </script>
+<script language="JavaScript">alert("If you ever come across a button") </script>
+<script language="JavaScript">alert("And it says not to push it") </script>
+<script language="JavaScript">alert("Just be smart") </script>
+<script language="JavaScript">alert("AND DON'T PUSH IT!!!!") </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<textarea>&lt;center&gt;&lt;b&gt;&lt;a href="http://www.angelfire.com/space/annoying/index.html"&gt;DO NOT PUSH THIS BUTTON&lt;/a&gt;&lt;/center&gt;&lt;/b&gt;</textarea>
+
+
+
+
+<br><br><br>
+
+<font size="1" color="white">
+<a target="_top" href="http://t.extreme-dm.com/?login=mgc5719">
+<img src="http://u1.extreme-dm.com/i.gif" height="38" border="0" width="41" alt=""></a><script language="javascript1.2"><!--
+EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+EXb=EXs.colorDepth:EXb=EXs.pixelDepth;//-->
+</script><script language="javascript"><!--
+EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
+EXd.write("<img src=\"http://t0.extreme-dm.com",
+"/0.gif?tag=mgc5719&j=y&srw="+EXw+"&srb="+EXb+"&",
+"l="+escape(EXd.referrer)+"\" height=1 width=1>");//-->
+</script><img src="http://t0.extreme-dm.com/0.gif?tag=mgc5719&amp;j=y&amp;srw=1280&amp;srb=24&amp;l=https%3A//www.google.com/" height="1" width="1"><noscript>&lt;img height=1 width=1 alt=""
+src="http://t0.extreme-dm.com/0.gif?tag=mgc5719&amp;j=n"&gt;</noscript>
+</font>
+
+
+
+
+
+
+<!--EndFreetext-->
+</p><p>
+
+<!--Links-->
+............(0 0)
+.   ---oOO-- (_)-----.
+    ╔═════════════════╗
+    ║ SOO COOOOOOOOOOL║
+    ╚═════════════════╝
+'----------------------oOO
+........|__|__|
+.......... || ||
+....... ooO Ooo
+
+<font size="5"></font>
+</p><p>
+<a href="http://www.angelfire.com/space/annoying/index2.html">YOOOOOOO B))</a><br>
+</p><p>
+<!--EndLinks-->
+
+<!--Counter-->
+</p><center><img src="/cgi-bin/Count.cgi"></center>
+<p>
+<!--EndCounter-->
+
+</p></div>
+
+
+</body>
+</html>
